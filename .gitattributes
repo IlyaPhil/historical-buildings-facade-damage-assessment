@@ -1,0 +1,23 @@
+# Нормализовать все текстовые файлы к LF при коммите
+* text=auto eol=lf
+
+# Явно задать текстовые файлы
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+
+# Бинарные файлы — не трогать
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pt binary
+*.pth binary
+*.h5 binary
+*.bin binary
