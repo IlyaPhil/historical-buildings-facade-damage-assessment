@@ -86,9 +86,13 @@ uv run jupyter notebook
 ## Данные
 
 [Датасет для обучения модели семантической сегментации](https://www.kaggle.com/datasets/relplumscalcath/facade-damage-seg-505-imgs-4-cls)
+
 [Датасет для вычисления индексов повреждения (402 здания)](https://kaggle.com/datasets/2395cc1efe24c62a9232b6fa7ee5c00141d6e9b73c31abae2c89f974e752e552)
+
 Датасет для обучения модели ранжирования: data/input/ranking-dataset
-Датасет для обучения модели восстановления индексов повреждений: data/interim
+
+Датасет для обучения GNN модели восстановления индексов повреждений: data/interim/gnn_node_features-b2-08.05.csv
+
 [Датасет для валидации модели восстановления индексов повреждения (83 здания)](https://kaggle.com/datasets/dbc8f6fbee3497e6ab041855036c1471dcdd22214875e42843d6619a473526ac)
 
 ## Веса модели сегментации
@@ -98,6 +102,7 @@ uv run jupyter notebook
 ## Графики обучения моделей из wandb
 
 [Обучение модели сегментации](https://wandb.ai/rimedheart-personal-use/facade-damage-segformer?nw=nwuserrimedheart)
+
 [Обучение GNN моделей восстановления индексов повреждений](https://wandb.ai/rimedheart-personal-use/facade-damage-GNN-exp-final/workspace?nw=nwuserrimedheart)
 
 ## Стек
